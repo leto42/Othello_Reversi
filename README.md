@@ -1,4 +1,4 @@
-Rules:
+<h1>**Rules**</h1>
 
 1: The only valid move in the game is to outflank or sandwich your opponent's piece.
 This means that two of your own pieces must surround your opponent's pieces whether it
@@ -11,7 +11,9 @@ the same player keeps placing pieces until the other player can make a move.
 3: The game is over when there are no valid moves for either player
 The player who has the most pieces at the end of the game is the winner.
 
-How to read the board:
+
+
+<h1>**How to read the board**</h1>
 
 The game can be played on a board of any size. This example shows a game with
 a 4x4 size board.
