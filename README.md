@@ -1,6 +1,6 @@
-This C++ program allows to user to play a game of Othello/Reversi on the command line.
-
-                                  :RULES:
+Script started on 2018-11-13 10:56:09-0800
+]0;tle@blue:~/cs215f18/Project2[tle@blue Project2]$ ./P2.out
+                               :RULES:
 
 1: The only valid move in the game is to outflank or sandwich your opponent's piece.
 This means that two of your own pieces must surround your opponent's pieces whether it
@@ -25,7 +25,7 @@ The human player is the X symbol.
 Here is a sample of a game being played between a human and a computer.
 
 
-Scores  HUMAN: 2;       COMPUTER: 2
+Scores	HUMAN: 2;	COMPUTER: 2
       A   B   C   D
     +---+---+---+---+
   1 |   |   |   |   | 1
@@ -39,7 +39,7 @@ Scores  HUMAN: 2;       COMPUTER: 2
       A   B   C   D
 Enter row and col for your move: 1b
 
-Scores  HUMAN: 4;       COMPUTER: 1
+Scores	HUMAN: 4;	COMPUTER: 1
       A   B   C   D
     +---+---+---+---+
   1 |   | X |   |   | 1
@@ -53,7 +53,7 @@ Scores  HUMAN: 4;       COMPUTER: 1
       A   B   C   D
 Player 2 choosing 1,A Total =  1
 
-Scores  HUMAN: 3;       COMPUTER: 3
+Scores	HUMAN: 3;	COMPUTER: 3
       A   B   C   D
     +---+---+---+---+
   1 | O | X |   |   | 1
@@ -67,7 +67,7 @@ Scores  HUMAN: 3;       COMPUTER: 3
       A   B   C   D
 Enter row and col for your move: 4c
 
-Scores  HUMAN: 5;       COMPUTER: 2
+Scores	HUMAN: 5;	COMPUTER: 2
       A   B   C   D
     +---+---+---+---+
   1 | O | X |   |   | 1
@@ -81,7 +81,7 @@ Scores  HUMAN: 5;       COMPUTER: 2
       A   B   C   D
 Player 2 choosing 4,D Total =  1
 
-Scores  HUMAN: 4;       COMPUTER: 4
+Scores	HUMAN: 4;	COMPUTER: 4
       A   B   C   D
     +---+---+---+---+
   1 | O | X |   |   | 1
@@ -95,7 +95,7 @@ Scores  HUMAN: 4;       COMPUTER: 4
       A   B   C   D
 Enter row and col for your move: 2a
 
-Scores  HUMAN: 6;       COMPUTER: 3
+Scores	HUMAN: 6;	COMPUTER: 3
       A   B   C   D
     +---+---+---+---+
   1 | O | X |   |   | 1
@@ -109,7 +109,7 @@ Scores  HUMAN: 6;       COMPUTER: 3
       A   B   C   D
 Player 2 choosing 1,C Total =  2
 
-Scores  HUMAN: 4;       COMPUTER: 6
+Scores	HUMAN: 4;	COMPUTER: 6
       A   B   C   D
     +---+---+---+---+
   1 | O | O | O |   | 1
@@ -123,7 +123,7 @@ Scores  HUMAN: 4;       COMPUTER: 6
       A   B   C   D
 Enter row and col for your move: 3d
 
-Scores  HUMAN: 6;       COMPUTER: 5
+Scores	HUMAN: 6;	COMPUTER: 5
       A   B   C   D
     +---+---+---+---+
   1 | O | O | O |   | 1
@@ -137,7 +137,7 @@ Scores  HUMAN: 6;       COMPUTER: 5
       A   B   C   D
 Player 2 choosing 4,A Total =  1
 
-Scores  HUMAN: 5;       COMPUTER: 7
+Scores	HUMAN: 5;	COMPUTER: 7
       A   B   C   D
     +---+---+---+---+
   1 | O | O | O |   | 1
@@ -151,7 +151,7 @@ Scores  HUMAN: 5;       COMPUTER: 7
       A   B   C   D
 Enter row and col for your move: 3a
 
-Scores  HUMAN: 7;       COMPUTER: 6
+Scores	HUMAN: 7;	COMPUTER: 6
       A   B   C   D
     +---+---+---+---+
   1 | O | O | O |   | 1
@@ -165,7 +165,7 @@ Scores  HUMAN: 7;       COMPUTER: 6
       A   B   C   D
 Player 2 choosing 2,D Total =  1
 
-Scores  HUMAN: 6;       COMPUTER: 8
+Scores	HUMAN: 6;	COMPUTER: 8
       A   B   C   D
     +---+---+---+---+
   1 | O | O | O |   | 1
@@ -179,7 +179,7 @@ Scores  HUMAN: 6;       COMPUTER: 8
       A   B   C   D
 Enter row and col for your move: 1d
 
-Scores  HUMAN: 8;       COMPUTER: 7
+Scores	HUMAN: 8;	COMPUTER: 7
       A   B   C   D
     +---+---+---+---+
   1 | O | O | O | X | 1
@@ -193,7 +193,7 @@ Scores  HUMAN: 8;       COMPUTER: 7
       A   B   C   D
 Player 2 choosing 4,B Total =  4
 
-Scores  HUMAN: 4;       COMPUTER: 12
+Scores	HUMAN: 4;	COMPUTER: 12
       A   B   C   D
     +---+---+---+---+
   1 | O | O | O | X | 1
@@ -205,7 +205,6 @@ Scores  HUMAN: 4;       COMPUTER: 12
   4 | O | O | O | O | 4
     +---+---+---+---+
       A   B   C   D
-
-GameOver!
+GameOver! 
 The winner is COMPUTER!
-The final score is: HUMAN: 4;   COMPUTER: 12
+The final score is: HUMAN: 4;	COMPUTER: 12
