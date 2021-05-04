@@ -29,5 +29,5 @@ The human player is the X symbol.
 Once you have all the files in the folder:
 <ol>
   <li><p>Type <i>"make play.out"</i></p></li>
-  <li><p>Start playing the game by typing<i>"./play.out"</i></p></li>
+  <li><p>Start playing the game by typing <i>"./play.out"</i></p></li>
 </ol>
